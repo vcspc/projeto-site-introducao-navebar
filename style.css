@@ -1,0 +1,39 @@
+body {
+    background-size: 1440px;
+
+}
+
+.cabecalho {
+    width: 1000px;
+    margin: auto auto;
+    margin-top: 50px;
+}
+
+.logo-cabecalho {
+    display: block;
+    float: left;
+}
+
+.menu-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+ul .item {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+
+
