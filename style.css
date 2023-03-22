@@ -1,11 +1,12 @@
 body {
-    background-size: 1440px;
-
+    /* background-size: 1440px; */
+    margin-left: auto;
+    width: 100em;
 }
 
 .cabecalho {
-    width: 1000px;
-    margin: auto auto;
+    width: 70em;
+    margin-right:auto;
     margin-top: 50px;
 }
 
@@ -33,6 +34,27 @@ ul .item {
     text-decoration: none;
 }
 
+.box-corpo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100em;
+    
+
+    
+}
+
+.ilustracao {
+    transform: scale(90%);
+
+}
+
+.box-ilustracao {
+    /*8clip-path: polygon(0 0, 70% 0, 70% 100%, 0% 100%);*/
+    overflow: clip;
+    width: 675px;
+}
 
 
 
