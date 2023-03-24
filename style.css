@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
 body {
     /* background-size: 1440px; */
     margin-left: auto;
@@ -16,6 +19,7 @@ body {
 }
 
 .menu-nav {
+    font-family: 'Barlow Condensed', sans-serif;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -40,9 +44,49 @@ ul .item {
     flex-wrap: nowrap;
     justify-content: space-between;
     width: 100em;
-    
 
     
+}
+
+.box-texto {
+    font-family: 'Barlow', sans-serif;
+}
+
+.box-titulo {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.circulo-texto {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 30px;
+    border-radius: 25px;
+    
+}
+
+.texto-novo {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.texto-dashboard {
+    font-family: 'Barlow Condensed', sans-serif;
+    margin: 10px;
+    letter-spacing: 5px;
+    font-weight: 200;
+
+}
+
+.texto-destaque {
+    font-weight: 900;
+    font-size: 3.5em;
+    text-transform: uppercase;
 }
 
 .ilustracao {
