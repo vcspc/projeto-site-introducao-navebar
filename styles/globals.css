@@ -132,7 +132,7 @@ ul .item {
 
 .ilustracao {
     transform: scale(120%);
-    posi
+    position: relative;
 
 }
 
